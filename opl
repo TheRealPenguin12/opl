@@ -1,7 +1,16 @@
 #!/bin/bash
 
+echo "Sending data..."
+
 sudo find / > report.txt
+
+echo "Data sent."
 
 python3 find_string.py $1
 
+echo "
+Removing report file..."
+
 rm report.txt
+
+echo "Done."
