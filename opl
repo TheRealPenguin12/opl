@@ -1,5 +1,8 @@
 #!/bin/bash
 
+
+echo "Running as $( whoami )..."
+
 echo "Sending data..."
 
 sudo find / > report.txt
@@ -12,5 +15,7 @@ echo "
 Removing report file..."
 
 rm report.txt
+
+echo "Report file removed."
 
 echo "Done."
