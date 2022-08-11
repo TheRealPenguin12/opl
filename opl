@@ -1,0 +1,7 @@
+#!/bin/bash
+
+sudo find / > report.txt
+
+python3 find_string.py $1
+
+rm report.txt
