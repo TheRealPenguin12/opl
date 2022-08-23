@@ -5,6 +5,9 @@ opl is a shell command that will search your entire computer for a file or direc
 
 1. Install [`python`](https://python.org)
 2. Clone or download repository
+
+:warning: __IMPORTANT:__ Clone the repository into __$HOME__ folder! :warning:
+
 3. `cd` into the main directory with command `cd opl`
 4. Run `install.sh` with command `./install.sh`
 5. Run `opl opl` in shell
