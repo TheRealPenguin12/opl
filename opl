@@ -8,7 +8,7 @@ sudo find / > report.txt
 
 echo "Data sent."
 
-python3 find_string.py $1
+python3 $HOME/opl/find_file.py $1
 
 echo "
 Removing report file..."
